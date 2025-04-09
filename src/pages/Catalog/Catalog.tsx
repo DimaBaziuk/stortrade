@@ -1,7 +1,9 @@
 import React from "react";
 
+import "./catalog.scss";
+
 const Catalog: React.FC = () => {
-    return <div>Catalog</div>;
+    return <section>Catalog</section>;
 };
 
 export default Catalog;

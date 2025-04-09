@@ -1,7 +1,9 @@
 import React from "react";
 
+import "./help.scss";
+
 const Help: React.FC = () => {
-    return <div>Help</div>;
+    return <section>Help</section>;
 };
 
 export default Help;

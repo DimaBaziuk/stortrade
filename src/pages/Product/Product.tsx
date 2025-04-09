@@ -1,7 +1,9 @@
 import React from "react";
 
+import "./product.scss";
+
 const Product: React.FC = () => {
-    return <div>Product</div>;
+    return <section>Product</section>;
 };
 
 export default Product;

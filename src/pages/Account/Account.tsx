@@ -1,7 +1,9 @@
 import React from "react";
 
+import "./account.scss";
+
 const Account: React.FC = () => {
-    return <div>Accout</div>;
+    return <section>Accout</section>;
 };
 
 export default Account;
