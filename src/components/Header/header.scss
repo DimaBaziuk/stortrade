@@ -1,25 +1,19 @@
+@use "../../css_constant/main_constant" as main;
+
 .header {
     display: flex;
-    flex-direction: column;
     width: 100%;
     align-items: center;
     justify-content: center;
+    padding: 10px 0;
 
     .mainNav {
         display: flex;
         align-items: center;
         justify-content: space-between;
         width: 100%;
-        margin-bottom: 20px;
+        height: main.$header_height;
     }
-
-    .searchBar {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 550px;
-    }
-
     .logo {
         text-decoration: none;
     }
@@ -33,6 +27,12 @@
             &:last-child {
                 margin-right: 0;
             }
+            &:hover {
+                color: #4a21a8;
+            }
+        }
+        .active {
+            color: #4a11a5;
         }
     }
 }

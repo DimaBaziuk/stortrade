@@ -1,23 +1,23 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import SearchBar from "./SearchBar";
+import { NavLink } from "react-router-dom";
 
 import "./header.scss";
 
 const Header: React.FC = () => {
     return (
         <header className="header">
-            <div className="mainNav">
-                <Link to={"/"} className="logo">
-                    Logo
-                </Link>
-                <nav className="nav">
-                    <Link to={"/"}>Home</Link>
-                    <Link to={"/account"}>Account</Link>
-                    <Link to={"/help"}>Help</Link>
-                </nav>
+            <div className="wrapper">
+                <div className="mainNav">
+                    <NavLink to={"/"} className="logo">
+                        Logo
+                    </NavLink>
+                    <nav className="nav">
+                        <NavLink to={"/"}>Home</NavLink>
+                        <NavLink to={"/account"}>Account</NavLink>
+                        <NavLink to={"/help"}>Help</NavLink>
+                    </nav>
+                </div>
             </div>
-            <SearchBar />
         </header>
     );
 };
