@@ -1,4 +1,5 @@
 import React from "react";
+import Categories from "../../components/Categories/Categories";
 import { Typography } from "antd";
 
 import "./home.scss";
@@ -10,6 +11,7 @@ const Home: React.FC = () => {
         <section className="home">
             <div className="wrapper">
                 <Title className="header">Сервіси на STTrade</Title>
+                <Categories />
             </div>
         </section>
     );
