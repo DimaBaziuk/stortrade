@@ -1,12 +1,9 @@
 @use "../../css_constant/main_constant" as main;
 
 .searchBar {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     width: 100%;
     padding: 40px 0;
-    background: #d7d7d7;
+    background: main.$grey_color;
     .wrapper {
         display: flex;
         align-items: center;
@@ -20,8 +17,10 @@
         input {
             height: main.$search_height;
         }
-        button {
+        .searchButton {
             height: main.$search_height;
+            background-color: #4a11a5;
+            font-size: 20px;
         }
     }
 }

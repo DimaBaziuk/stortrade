@@ -1,0 +1,29 @@
+@use "../../css_constant/main_constant.scss" as main;
+
+.categories {
+    margin: 20px 0;
+}
+.categoriesList {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    .category {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 180px;
+        cursor: pointer;
+        border: 2px solid main.$grey_color;
+        border-radius: 8px;
+        background-color: main.$grey_color;
+        .icon {
+            font-size: 50px;
+        }
+        p {
+            margin-bottom: 0;
+            font-size: 18px;
+            line-height: 20px;
+        }
+    }
+}

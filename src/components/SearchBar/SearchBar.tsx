@@ -6,7 +6,7 @@ import "./searchBar.scss";
 
 const SearchBar: React.FC = () => {
     return (
-        <section className="searchBar">
+        <section className="searchBar main_container_box">
             <div className="wrapper">
                 <div className="searchBlock">
                     <Input className="search" placeholder="Search" />

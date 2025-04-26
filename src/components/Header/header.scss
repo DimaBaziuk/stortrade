@@ -1,10 +1,7 @@
 @use "../../css_constant/main_constant" as main;
 
 .header {
-    display: flex;
     width: 100%;
-    align-items: center;
-    justify-content: center;
     padding: 10px 0;
 
     .mainNav {
@@ -28,7 +25,7 @@
                 margin-right: 0;
             }
             &:hover {
-                color: #4a21a8;
+                color: #4096ff;
             }
         }
         .active {
