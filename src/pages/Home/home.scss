@@ -1,7 +1,11 @@
+@use "../../css_constant/main_constant.scss" as main;
+
 .home {
     width: 100%;
+    padding: main.$top_bottom_padding;
     .header {
         width: 100%;
         text-align: center;
+        margin: 0;
     }
 }

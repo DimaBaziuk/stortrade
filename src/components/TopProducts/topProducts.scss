@@ -1,0 +1,5 @@
+@use "../../css_constant/main_constant.scss" as main;
+
+.topProducts {
+    padding: main.$top_bottom_padding;
+}
