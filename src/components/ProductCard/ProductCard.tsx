@@ -2,13 +2,25 @@ import React from "react";
 
 import "./productCard.scss";
 
-const ProductCard: React.FC = () => {
+interface Product {
+    product: {
+        id: string;
+        img: string;
+        name: string;
+        price: string;
+        date: string;
+    };
+}
+
+const ProductCard: React.FC<Product> = ({ product }: Product) => {
     return (
         <div className="productCard">
-            <img src="" alt="img" />
+            <img src={product.img} alt="img" />
             <div className="info">
-                <div className="top">name, price, add to list</div>
-                <div className="bottom">time or location</div>
+                <div className="top">
+                    {product.name}, {product.price}
+                </div>
+                <div className="bottom">{product.date}</div>
             </div>
         </div>
     );

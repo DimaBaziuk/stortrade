@@ -15,7 +15,7 @@
         height: 180px;
         cursor: pointer;
         border: 2px solid main.$grey_color;
-        border-radius: 8px;
+        border-radius: main.$main_border_radius;
         background-color: main.$grey_color;
         .icon {
             font-size: 50px;

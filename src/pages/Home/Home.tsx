@@ -13,8 +13,8 @@ const Home: React.FC = () => {
             <div className="wrapper">
                 <Title className="header">Сервіси на STTrade</Title>
                 <Categories />
-                <TopProducts />
             </div>
+            <TopProducts />
         </section>
     );
 };

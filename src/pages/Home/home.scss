@@ -3,6 +3,8 @@
 .home {
     width: 100%;
     padding: main.$top_bottom_padding;
+    flex-direction: column;
+
     .header {
         width: 100%;
         text-align: center;

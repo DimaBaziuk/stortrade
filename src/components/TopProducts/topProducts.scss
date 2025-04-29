@@ -2,4 +2,15 @@
 
 .topProducts {
     padding: main.$top_bottom_padding;
+    background-color: main.$grey_color;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .productsList {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 20px;
+    }
 }
