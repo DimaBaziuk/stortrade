@@ -11,7 +11,7 @@ const Home: React.FC = () => {
     return (
         <section className="home main_container_box">
             <div className="wrapper">
-                <Title className="header">Сервіси на STTrade</Title>
+                <Title className="header">Сервіси</Title>
                 <Categories />
             </div>
             <TopProducts />

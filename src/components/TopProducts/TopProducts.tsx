@@ -1,4 +1,5 @@
 import React from "react";
+import { Typography } from "antd";
 
 import "./topProducts.scss";
 import ProductCard from "../ProductCard/ProductCard";
@@ -34,10 +35,15 @@ const fakeData = [
     },
 ];
 
+const { Title } = Typography;
+
 const TopProducts: React.FC = () => {
     return (
         <section className="topProducts">
             <div className="wrapper">
+                <Title level={2} className="heading">
+                    Топ оголошення
+                </Title>
                 <div className="productsList">
                     {fakeData.map((product) => (
                         <ProductCard key={product.id} product={product} />
